@@ -1,0 +1,319 @@
+.navbar-brand{
+    font-size: 30px;
+    padding: 20px;
+    
+}
+#nav-bar{
+ 
+ background: rgb(33,182,213);
+ background: linear-gradient(180deg, rgba(33,182,213,1) 0%, rgba(40,61,240,1) 100%);
+ 
+ color: aliceblue;
+}
+
+#logo{
+    color: white;
+    font-size: 23px;
+}
+#links{
+    margin-left: 15%;
+}
+.nav-item{
+    padding-right: 12px;
+    
+}
+#nav-li{
+    color: white;
+    letter-spacing: 3px;;
+    font-size: 18px;
+}
+.nav-link{
+    color:rgb(132, 0, 255);
+    font-weight: bolder;
+    font-size: medium;
+}
+.carousel-inner{
+    background-image: linear-gradient(
+	rgba(223, 67, 171, 0.8),
+    rgba(51, 194, 219, 0.7)
+  );
+}
+h2{
+    text-align: center;
+    padding-bottom: 0px;
+}
+hr{
+       border: 3px solid blue;
+       border-radius: 5px;
+       text-align: center;
+       
+}
+.section{
+    margin-top: 7%;
+}
+.containers{
+    margin-left: 0px;
+    
+}
+#cakeset{
+    box-shadow: 1px 1px 10px 5px pink;
+    border-radius: 50%;
+    
+}
+#cakeset:hover{
+    transition: linear 1s;
+    transform: scaleX(1.1);
+    box-shadow: 1px 1px 10px 5px blue;
+}
+#studset{
+    box-shadow: 1px 1px 10px 5px pink;
+    border-radius: 10%;
+}
+#studset:hover{
+    transition: linear 1s;
+    transform: scaleY(0.9);
+    box-shadow: 1px 1px 10px 5px blue;
+}
+.button{
+    margin: 3% 0% 0% 40%;
+}
+#img{
+    margin: 0%;
+    padding-right: 0%;
+
+}
+.container-inner{
+    display: flex;
+    margin: 0px;
+}
+
+#cakeimg{
+    width: 300%;
+    flex: 1;
+    
+}
+.feature-box{
+    background-color: violet;
+    width: 300%;
+    flex: 1;
+    color: white;
+}
+.feature-box:hover{
+    transition: ease-in 1s;
+    background-color: rgb(42, 137, 214);
+}
+.feature1{
+    display: flex;
+    margin: 50px;
+   
+}
+.feature2{
+    display: flex;
+    margin: 50px;
+    
+}
+#featarea{
+    padding-right: 70px;
+    text-align: justify;
+}
+#fa-icon{
+    font-size: 300%;
+    
+}
+.teamset{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.head-text{
+    font-size: 40px;
+}
+.ceo{
+    margin-left: 40px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+.ceoimg{
+    margin:0px;
+    width: 50%;
+}
+.ceosocial a{
+    width: 60px;
+	height: 35px;
+	padding: 8px;
+	font-size: 28px;
+	letter-spacing: 0px;
+	color: rgb(255, 0, 221);
+	border: 5px solid;
+    border-radius: 15px;
+}
+.ceosocial a:hover{
+    transition: linear 1s;
+    color: rgb(19, 168, 236);
+}
+.section{
+    margin-top: 35px;
+}
+.contact1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:10%;
+    font-size: 15px;
+    padding: 20px;   
+   
+}
+form, #col-13{
+    padding: 30px;
+
+}
+
+.col-12{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+#bottom-section{    
+    padding-left: 5%;
+    margin-top: 30px;
+    background-color: rgb(255, 0, 221);
+    
+}
+form{
+    width: 99%;
+   }
+.footer1{
+    color: #bac3c4;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.footer1 p{
+    padding-top: 20px;
+    font-size: 15px;
+    
+}
+.button a{
+    text-decoration: none;
+   
+}
+.button a:hover{
+    color:white;
+}
+.footer1 a{
+    margin: 10px;
+	padding: 10px;
+	font-size: 15px;
+	letter-spacing: 10px;
+	color: white;
+	border:3px solid rgb(0, 183, 255);
+	border-radius: 100px;
+	
+}
+.footer1 a:hover{
+    transition: linear 1.4s;
+	transform: scale(0.6); 
+	box-shadow: 0px 0px 8px 10px #B3CFE6; 
+	color: black;
+	background-color: #40FF7C;
+
+}
+.footer2{
+    color: #bac3c4;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom:20px ;
+}
+
+footer{
+    
+    background: rgb(69,74,75);
+    background: linear-gradient(180deg, rgba(69,74,75,1) 0%, rgba(18,18,18,1) 100%);
+}
+
+@media (min-width: 1250px){
+   #links{
+    margin-left: 40%
+   }
+
+}
+
+@media (max-width:1550px){
+    #img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 990px){
+    #links{
+        margin-top: 4%;
+        margin-left: 3%;
+        padding-right: 25px;
+        font-size: 20px;
+    }
+    .container-inner{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #cakeimg{
+        width: 50%;
+    }
+    .contact1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    
+   #img{
+    margin: 0px;
+    width: 110%;
+    } 
+    
+}
+@media (max-width: 470px){
+    #img{
+         width:80%;
+    }
+    .ceoimg{
+        width: 200px;
+    }
+    .feature1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feature2{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.teamset{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ceo{
+    margin-left: 0px;
+}
+    #center-img{
+        margin-left:10%;
+    }
+    #studset{
+        width: 70%;
+        height: 80%;
+    }
+    #cakeset{
+        width: 70%;
+        height: 80%;
+    }
+    #logo{
+        font-size: 15px;
+    }
+    #nav-li{
+        font-size: 10px;
+    }
+}
